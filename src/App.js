@@ -47,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
   bodyList: {
     width: "100%",
     padding: 20,
-    height: "79vh",
+    height: "100%",
   },
   input: {
     color: "#C9D0D3",
