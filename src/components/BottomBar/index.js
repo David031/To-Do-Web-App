@@ -8,7 +8,7 @@ import "shards-ui/dist/css/shards.min.css";
 export default function BottomBar({ classes, isOpenMenu, handleOnClickFab, handleOpenCreateBucket, handleOpenCreateTask, bucket }) {
   return (
     <Grid item container direction="row-reverse" className={classes.bodyBottomBar}>
-      <Dropdown open={isOpenMenu} toggle={handleOnClickFab} dropup style={{ width: 50 }}>
+      <Dropdown open={isOpenMenu} toggle={handleOnClickFab} dropup style={{ width: 50 }} className={classes.fabMenu}>
         <DropdownToggle pill theme="info" className={classes.fab} style={{ width: 50 }}>
           {isOpenMenu ? <Close /> : <Add />}
         </DropdownToggle>

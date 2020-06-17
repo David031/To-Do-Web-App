@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: 40,
   },
   searchBar: {
-    width: 200,
+    width: "100%",
     color: "#FFFFFF",
     marginBottom: 20,
   },
@@ -38,8 +38,14 @@ const useStyles = makeStyles((theme) => ({
   fab: {
     width: 50,
     padding: 12,
-    paddingLeft: 5,
-    paddingRight: 5,
+    position: "fixed",
+    bottom: theme.spacing.unit * 2,
+    right: theme.spacing.unit * 3,
+  },
+  fabMenu: {
+    position: "fixed",
+    bottom: theme.spacing.unit * 9,
+    right: theme.spacing.unit * 6,
   },
   bodyBottomBar: {
     padding: 23,
@@ -47,7 +53,6 @@ const useStyles = makeStyles((theme) => ({
   bodyList: {
     width: "100%",
     padding: 20,
-    height: "100%",
   },
   input: {
     color: "#C9D0D3",
