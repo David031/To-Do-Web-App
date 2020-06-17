@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   },
   drawHeader: {
     height: 150,
-    padding: 20,
+    margin: 20,
   },
   headerText: {
     color: "#FFFFFF",
